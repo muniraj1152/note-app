@@ -1,0 +1,26 @@
+@import 'styles/variables';
+
+.container {
+  vertical-align: top;
+}
+
+.mainTitle {
+  color: $secondary-color;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42.19px;
+}
+
+.btnPrimaryLight {
+  background: $primary-10;
+  border-radius: 4px;
+  color: $primary;
+  font-weight: 500;
+  width: 30%;
+}
+
+.cardContainer {
+  height: calc(100vh - 241px);
+  margin-bottom: 30px;
+  overflow-y: scroll;
+}
